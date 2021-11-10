@@ -15,7 +15,7 @@
   "settings": {},
 
   // Add the IDs of extensions you want installed when the container is created.
-  "extensions": ["github.copilot"],
+  "extensions": ["github.copilot", "github.vscode-pull-request-github", "eamodio.gitlens"],
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
