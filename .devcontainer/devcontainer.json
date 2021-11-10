@@ -5,10 +5,10 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  // "runArgs": ["--gpus=all"],
+  "runArgs": ["--gpus=all"],
   "mounts": [
-    // set "/storage/ml" to the your systems data store, makes your data store available in container
-    "source=/storage/ml,target=${containerWorkspaceFolder}/data,type=bind,consistency=delegated"
+    // set "/mnt/storage/ml" to the your systems data store, makes your data store available in container
+    "source=/mnt/storage/ml,target=${containerWorkspaceFolder}/data,type=bind,consistency=delegated"
   ],
 
   // Set *default* container specific settings.json values on container create.
