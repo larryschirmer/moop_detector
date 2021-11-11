@@ -1,5 +1,6 @@
 venv
 data
 tuning
-*.h5
 embedding*.txt
+.ipynb_checkpoints
+best_model
