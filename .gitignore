@@ -1,2 +1,5 @@
 venv
 data
+tuning
+*.h5
+embedding*.txt
